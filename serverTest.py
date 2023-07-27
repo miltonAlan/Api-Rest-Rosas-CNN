@@ -61,3 +61,4 @@ def eliminar_elemento(id):
 
 if __name__ == '__main__':
     app.run(debug=True)
+    flask_app.run(host="0.0.0.0", port=8000)
